@@ -52,18 +52,11 @@ public class Shop {
 				System.out.println("invalid input !!");
 				System.out.println("Thank you for shopping with us! The total amount is "  +  totalAmount + "\n");
 				break;
-			}
-			
+			                                  }
+				} }
+		//Extra Credit   Use for-each loop to print the products inside inventory. 
+		for(Product product: inventory){
+			System.out.println(product);
 		
-		}
-		
-		}
-			}
-	//Extra Credit   Use for-each loop to print the products inside inventory. 
-//		for(Product product: inventory){
-//			System.out.println(product);
-//		}
-				
-}
-
-		
+				}	}		
+}		
