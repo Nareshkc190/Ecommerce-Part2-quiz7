@@ -15,9 +15,7 @@ public class Shop {
 
 	public static void main(String[] args) {
 		
-		Scanner scanner = new Scanner(System.in);
-		Shop shop = new Shop();
-		
+		Scanner scanner = new Scanner(System.in);		
 		if(!isShopOpen)
 			System.out.println("Shop is close !!");
 		 //ifisOpen is false
@@ -52,8 +50,10 @@ public class Shop {
 				System.out.println("invalid input !!");
 				System.out.println("Thank you for shopping with us! The total amount is "  +  totalAmount + "\n");
 				break;
-			                                  }
+			                                  
 				} }
+		scanner.close();
+		}
 		//Extra Credit   Use for-each loop to print the products inside inventory. 
 		for(Product product: inventory){
 			System.out.println(product);
