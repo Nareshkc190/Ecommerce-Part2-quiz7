@@ -1,5 +1,6 @@
 import java.util.InputMismatchException;
-import java.util.Scanner;
+
+import java.util.*;
 public class Shop {
 	
 	public static double totalAmount = 0.0;
@@ -14,6 +15,11 @@ public class Shop {
 	
 
 	public static void main(String[] args) {
+		Date date = new Date();
+		if(date.getHours() >21) 
+			isShopOpen = false;
+		else 
+			isShopOpen = true;
 		
 		Scanner scanner = new Scanner(System.in);		
 		if(!isShopOpen)

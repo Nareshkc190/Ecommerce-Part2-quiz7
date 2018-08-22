@@ -7,6 +7,7 @@ public class Product {
 	private char size;
 	private String author;
 	private String color;
+	//Testing GitHub Desktop
 	
 	
 	// Constructor for products that  are apparel and hence they will have name, price, category, quantity, size, color
